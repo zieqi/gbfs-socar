@@ -6,54 +6,55 @@
     "stations": [
       {
         "station_id": "socar_kl_sentral",
-
         "num_bikes_available": 5,
-
-        "vehicle_types_available": [
-          {
-            "vehicle_type_id": "socar_sedan",
-            "count": 5
-          }
-        ],
-
         "num_docks_available": 5,
-        "vehicle_docks_available": [
-          {
-            "vehicle_type_ids": [ "socar_sedan" ],
-            "count": 5
-          }
-        ],
         "is_installed": true,
         "is_renting": true,
         "is_returning": true,
-
-        "last_reported": 1709500000
+        "last_reported": 1709500000,
+        "vehicle_types_available": [{
+          "vehicle_type_id": "socar_bike",
+          "count": 5
+          }
+        ]  
       },
-
       {
         "station_id": "socar_montkiara",
-
         "num_bikes_available": 3,
-
-        "vehicle_types_available": [
-          {
-            "vehicle_type_id": "socar_sedan",
-            "count": 3
-          }
-        ],
-
         "num_docks_available": 5,
-        "vehicle_docks_available": [
-          {
-            "vehicle_type_ids": [ "socar_sedan" ],
-            "count": 5
-          }
-        ],
         "is_installed": true,
         "is_renting": true,
         "is_returning": true,
-
-        "last_reported": 1709500000
+        "last_reported": 1709500000,
+        "vehicle_docks_available": [{
+          "vehicle_type_ids": ["socar_bike"],
+          "count": 5
+          }
+        ],
+        "vehicle_types_available": [{
+          "vehicle_type_id": "socar_bike",
+          "count": 3  
+          }
+        ]   
+      },
+      {
+        "station_id": "socar_montkiara2",
+        "num_bikes_available": 3,
+        "num_docks_available": 5,
+        "is_installed": true,
+        "is_renting": true,
+        "is_returning": true,
+        "last_reported": 1709500000,
+        "vehicle_docks_available": [{
+          "vehicle_type_ids": ["socar_bike"],
+          "count": 5
+          }
+        ],
+        "vehicle_types_available": [{
+          "vehicle_type_id": "socar_bike",
+          "count": 3  
+          }
+        ]  
       }
     ]
   }
