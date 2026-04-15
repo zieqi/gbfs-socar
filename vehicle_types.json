@@ -15,6 +15,12 @@
         "form_factor": "car",
         "propulsion_type": "electric",
         "max_range_meters": 450000
+      },
+      {
+        "vehicle_type_id": "socar_bike",
+        "form_factor": "car",
+        "propulsion_type": "electric",
+        "max_range_meters": 450000
       }
     ]
   }
