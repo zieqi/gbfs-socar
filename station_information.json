@@ -9,22 +9,21 @@
         "name": "SoCar KL Sentral",
         "lat": 3.1357,
         "lon": 101.6880,
-        "capacity": 10,
-        "vehicle_type_capacity": {
-          "socar_sedan": 6,
-          "socar_ev": 4
-        }
+        "capacity": 10
       },
       {
         "station_id": "socar_montkiara",
         "name": "SoCar Mont Kiara",
         "lat": 3.1672,
         "lon": 101.6527,
-        "capacity": 8,
-        "vehicle_type_capacity": {
-          "socar_sedan": 4,
-          "socar_ev": 4
-        }
+        "capacity": 8
+      },
+      {
+        "station_id": "socar_montkiara2",
+        "name": "SoCar Mont Kiara 2",
+        "lat": 3.170920,
+        "lon": 101.6382, 
+        "capacity": 8
       }
     ]
   }
