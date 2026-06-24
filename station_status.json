@@ -76,7 +76,7 @@
         ]  
       },
       {
-        "station_id": "socar_1u",
+        "station_id": "socar_oneu",
         "num_bikes_available": 3,
         "num_docks_available": 5,
         "is_installed": true,
