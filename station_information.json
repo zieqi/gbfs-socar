@@ -24,6 +24,20 @@
         "lat": 3.170920,
         "lon": 101.6382, 
         "capacity": 8
+      },
+      {
+        "station_id": "socar_centrepoint",
+        "name": "SoCar Centre Point",
+        "lat": 3.138114,
+        "lon": 101.60983, 
+        "capacity": 8
+      },
+      {
+        "station_id": "socar_1u",
+        "name": "SoCar 1U",
+        "lat": 3.145034,
+        "lon": 101.617750, 
+        "capacity": 8
       }
     ]
   }
