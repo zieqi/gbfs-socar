@@ -55,6 +55,44 @@
           "count": 3  
           }
         ]  
+      },
+      {
+        "station_id": "socar_centrepoint",
+        "num_bikes_available": 3,
+        "num_docks_available": 5,
+        "is_installed": true,
+        "is_renting": true,
+        "is_returning": true,
+        "last_reported": 1709500000,
+        "vehicle_docks_available": [{
+          "vehicle_type_ids": ["socar_bike"],
+          "count": 5
+          }
+        ],
+        "vehicle_types_available": [{
+          "vehicle_type_id": "socar_bike",
+          "count": 3  
+          }
+        ]  
+      },
+      {
+        "station_id": "socar_1u",
+        "num_bikes_available": 3,
+        "num_docks_available": 5,
+        "is_installed": true,
+        "is_renting": true,
+        "is_returning": true,
+        "last_reported": 1709500000,
+        "vehicle_docks_available": [{
+          "vehicle_type_ids": ["socar_bike"],
+          "count": 5
+          }
+        ],
+        "vehicle_types_available": [{
+          "vehicle_type_id": "socar_bike",
+          "count": 3  
+          }
+        ]  
       }
     ]
   }
